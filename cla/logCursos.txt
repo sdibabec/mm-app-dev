@@ -1,0 +1,356 @@
+ INSERT INTO BitCursos
+            (
+            eCodUsuario,
+            fhFecha,
+            eCodEstatus,
+            tTitulo,
+            tObjetivo,
+            tDescripcion,
+            fhFechaCurso,
+            eHoras,
+            tUbicacion,
+            tFlyer,
+            tSlider,
+            tCodTipo,
+            eCodEntidad,
+            tPaypal,
+            tDias
+			)
+            VALUES
+            (
+            7,
+            '2020-09-09 17:43:03',
+            3,
+            'El mito de la autoestima',
+            'Personas con intereses de desarrollo personal',
+            'Em este curso descubriremos los mitos sobre la autopercepcion y autovaloracion y de que depende realmente tener una autestima sana y en crecimiento',
+            '1969-12-31 17:00',
+            3 horas,
+            'Av. Campos Eliseos',
+            'inv/5f596887578f6.jpg',
+            'inv/5f59688757e92.jpg',
+            'profesionales',
+            1,
+            NULL,
+            '25/09/2020 28/09/2020 30/09/2020'
+            )
+
+ INSERT INTO BitCursos
+            (
+            eCodUsuario,
+            fhFecha,
+            eCodEstatus,
+            tTitulo,
+            tObjetivo,
+            tDescripcion,
+            fhFechaCurso,
+            eHoras,
+            tUbicacion,
+            tFlyer,
+            tSlider,
+            tCodTipo,
+            eCodEntidad,
+            tPaypal,
+            tDias
+			)
+            VALUES
+            (
+            7,
+            '2020-09-09 17:44:09',
+            3,
+            'El mito de la autoestima',
+            'Personas con intereses de desarrollo personal',
+            'Em este curso descubriremos los mitos sobre la autopercepcion y autovaloracion y de que depende realmente tener una autestima sana y en crecimiento',
+            '1969-12-31 17:00',
+            3 horas,
+            'Av. Campos Eliseos',
+            'inv/5f5968c94becf.jpg',
+            'inv/5f5968c94c705.jpg',
+            'profesionales',
+            1,
+            NULL,
+            '25/09/2020 28/09/2020 30/09/2020'
+            )
+
+ INSERT INTO BitCursos
+            (
+            eCodUsuario,
+            fhFecha,
+            eCodEstatus,
+            tTitulo,
+            tObjetivo,
+            tDescripcion,
+            fhFechaCurso,
+            eHoras,
+            tUbicacion,
+            tFlyer,
+            tSlider,
+            tCodTipo,
+            eCodEntidad,
+            tPaypal,
+            tDias
+			)
+            VALUES
+            (
+            7,
+            '2020-09-09 17:44:46',
+            3,
+            'El mito de la autoestima',
+            'Personas con intereses de desarrollo personal',
+            'Em este curso descubriremos los mitos sobre la autopercepcion y autovaloracion y de que depende realmente tener una autestima sana y en crecimiento',
+            '1969-12-31 17:00',
+            3 hrs,
+            'Av. Campos Eliseos',
+            'inv/5f5968ee8d5fa.jpg',
+            'inv/5f5968ee8da57.jpg',
+            'profesionales',
+            1,
+            NULL,
+            '25/09/2020 28/09/2020 30/09/2020'
+            )
+
+ INSERT INTO BitCursos
+            (
+            eCodUsuario,
+            fhFecha,
+            eCodEstatus,
+            tTitulo,
+            tObjetivo,
+            tDescripcion,
+            fhFechaCurso,
+            eHoras,
+            tUbicacion,
+            tFlyer,
+            tSlider,
+            tCodTipo,
+            eCodEntidad,
+            tPaypal,
+            tDias
+			)
+            VALUES
+            (
+            7,
+            '2020-09-09 17:45:19',
+            3,
+            'El mito de la autoestima',
+            'Personas con intereses de desarrollo personal',
+            'Em este curso descubriremos los mitos sobre la autopercepcion y autovaloracion y de que depende realmente tener una autestima sana y en crecimiento',
+            '1969-12-31 17:00',
+            3 hrs,
+            'Av. Campos Eliseos 2341 cdmx',
+            'inv/5f59690f70f51.jpg',
+            'inv/5f59690f71420.jpg',
+            'profesionales',
+            1,
+            NULL,
+            '25/09/2020 28/09/2020 30/09/2020'
+            )
+
+ INSERT INTO BitCursos
+            (
+            eCodUsuario,
+            fhFecha,
+            eCodEstatus,
+            tTitulo,
+            tObjetivo,
+            tDescripcion,
+            fhFechaCurso,
+            eHoras,
+            tUbicacion,
+            tFlyer,
+            tSlider,
+            tCodTipo,
+            eCodEntidad,
+            tPaypal,
+            tDias
+			)
+            VALUES
+            (
+            7,
+            '2020-09-09 17:46:30',
+            3,
+            'El mito de la autoestima',
+            'Personas con intereses de desarrollo personal',
+            'Em este curso descubriremos los mitos sobre la autopercepcion y autovaloracion y de que depende realmente tener una autestima sana y en crecimiento',
+            '1969-12-31 17:00',
+            3 ,
+            'Av. Campos Eliseos 2341 cdmx',
+            'inv/5f5969567fe06.jpg',
+            'inv/5f59695680205.jpg',
+            'profesionales',
+            1,
+            NULL,
+            '25/09/2020 28/09/2020 30/09/2020'
+            )
+
+INSERT INTO RelCursosModalidades (eCodCurso,eCodModalidad,eLugares,dPrecio) VALUES (1,2,15,$1000.oo);
+
+INSERT INTO RelCursosModulos
+                    (
+                    eCodCurso,
+                    eModulo,
+                    tNombre,
+                    fhFechaModulo,
+                    eHoras,
+                    tEmbed
+                    )
+                    VALUES
+                    (
+                    1,
+                    1,
+                    'Contribucion y accion',
+                    '1969-12-31 17:00',
+                    1 hr.,
+                    NULL
+                    )
+
+ INSERT INTO BitCursos
+            (
+            eCodUsuario,
+            fhFecha,
+            eCodEstatus,
+            tTitulo,
+            tObjetivo,
+            tDescripcion,
+            fhFechaCurso,
+            eHoras,
+            tUbicacion,
+            tFlyer,
+            tSlider,
+            tCodTipo,
+            eCodEntidad,
+            tPaypal,
+            tDias
+			)
+            VALUES
+            (
+            7,
+            '2020-09-09 17:47:42',
+            3,
+            'El mito de la autoestima',
+            'Personas con intereses de desarrollo personal',
+            'Em este curso descubriremos los mitos sobre la autopercepcion y autovaloracion y de que depende realmente tener una autestima sana y en crecimiento',
+            '1969-12-31 17:00',
+            3 ,
+            'Av. Campos Eliseos 2341 cdmx',
+            'inv/5f59699ee18b7.jpg',
+            'inv/5f59699ee1ec7.jpg',
+            'profesionales',
+            1,
+            NULL,
+            '25/09/2020 28/09/2020 30/09/2020'
+            )
+
+INSERT INTO RelCursosModalidades (eCodCurso,eCodModalidad,eLugares,dPrecio) VALUES (2,2,15,$1000.oo);
+
+INSERT INTO RelCursosModulos
+                    (
+                    eCodCurso,
+                    eModulo,
+                    tNombre,
+                    fhFechaModulo,
+                    eHoras,
+                    tEmbed
+                    )
+                    VALUES
+                    (
+                    2,
+                    1,
+                    'Contribucion y accion',
+                    '1969-12-31 17:00',
+                    1 hr.,
+                    NULL
+                    )
+
+ INSERT INTO BitCursos
+            (
+            eCodUsuario,
+            fhFecha,
+            eCodEstatus,
+            tTitulo,
+            tObjetivo,
+            tDescripcion,
+            fhFechaCurso,
+            eHoras,
+            tUbicacion,
+            tFlyer,
+            tSlider,
+            tCodTipo,
+            eCodEntidad,
+            tPaypal,
+            tDias
+			)
+            VALUES
+            (
+            7,
+            '2020-09-09 17:50:05',
+            3,
+            'El mito de la autoestima',
+            'Personas con intereses de desarrollo personal',
+            'Em este curso descubriremos los mitos sobre la autopercepcion y autovaloracion y de que depende realmente tener una autestima sana y en crecimiento',
+            '1969-12-31 17:00',
+            3 ,
+            'Av. Campos Eliseos 2341 cdmx',
+            'inv/5f596a2d80a51.jpg',
+            'inv/5f596a2d80e80.jpg',
+            'profesionales',
+            1,
+            NULL,
+            '25/09/2020 28/09/2020 30/09/2020'
+            )
+
+INSERT INTO RelCursosModalidades (eCodCurso,eCodModalidad,eLugares,dPrecio) VALUES (3,2,15,$1000.oo);
+
+INSERT INTO RelCursosModulos
+                    (
+                    eCodCurso,
+                    eModulo,
+                    tNombre,
+                    fhFechaModulo,
+                    eHoras,
+                    tEmbed
+                    )
+                    VALUES
+                    (
+                    3,
+                    1,
+                    'Contribucion y accion',
+                    '1969-12-31 17:00',
+                    1 ,
+                    NULL
+                    )
+
+
+
+
+
+UPDATE 
+                            BitCursos
+                        SET
+            				eCodUsuario=1,
+                            fhFecha='2020-09-30 09:34:49',
+                            eCodEstatus=3,
+                            tTitulo='El mito de la autoestima',
+                            tObjetivo='Personas con intereses de desarrollo personal',
+                            tDescripcion='Em este curso descubriremos los mitos sobre la autopercepcion y autovaloracion y de que depende realmente tener una autestima sana y en crecimiento',
+                            fhFechaCurso='2020-09-30 17:00',
+                            eHoras=3,
+                            tUbicacion='Av. Campos Eliseos 2341 cdmx',
+                            tFlyer='inv/5f596a2d80a51.jpg',
+                            tSlider='inv/5f596a2d80e80.jpg',
+                            tCodTipo='basicos'
+                            WHERE
+                            eCodCurso = 3
+
+INSERT INTO RelCursosModalidades (eCodCurso,eCodModalidad,eLugares,dPrecio) VALUES (3,1,100,100);
+
+UPDATE RelCursosModulos
+                    SET
+                    eCodCurso=3,
+                    eModulo=1,
+                    tNombre='Contribucion y accion',
+                    fhFechaModulo='2020-09-30',
+                    eHoras=1,
+                    tEmbed=NULL
+                    WHERE eCodRegistro = 2
+
